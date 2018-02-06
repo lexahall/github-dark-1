@@ -1651,6 +1651,14 @@ hr,
 
 /* Notification */
 
+.list-group-item {
+    border-color: #304251;
+}
+
+.notifications-list .confirmation+.list-group-item {
+    border-top-color: #304251;
+}
+
 .list-group-item.navigation-focus {
     background-color: #151f29;
 }
